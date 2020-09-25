@@ -1,4 +1,9 @@
-body {font-family: Tahoma, Arial; color: #333;}
+body {
+    font-family: Tahoma, Arial;
+    color: #333;
+    text-align: center;
+}
+
 #search_input {
     background-image: url('img/searchicon.png'); /* Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
@@ -33,4 +38,9 @@ body {font-family: Tahoma, Arial; color: #333;}
 
 #search_result li a:hover:not(.header) {
     background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+#search_rexult_info {
+    margin-top: 20px;
+    font-size: 90%;
 }
