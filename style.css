@@ -2,6 +2,7 @@ body {
     font-family: Tahoma, Arial;
     color: #333;
     text-align: center;
+    background-color: #f7f7f7;
 }
 
 #search_input {
@@ -21,8 +22,6 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    position: absolute;
-    z-index: 1;
 }
 
 #search_result li a {
